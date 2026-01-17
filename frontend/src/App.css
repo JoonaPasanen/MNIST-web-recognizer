@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: black;
+  margin-top: 0px;
+}
+
+.mainContainer {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 2px solid darkgrey;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.canvasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  border-right: 2px solid darkgrey;
+}
+
+.explanationHeader {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #6366f1;
+  color: black;
+  border-radius: 12px;
+  height: 40px;
+  width: 140px;
+}
+
+button:hover {
+  background-color: #7476db;
+  transition: "all 0.3s ease";
+}
+
+.digitCanvas {
+  background-color: white;
+  border-radius: 16px;
+  border: 2px solid darkgrey;
+  margin: 0 auto;
+}
+
+.probabilityContainer {
+  width: 500px;
+  align-items: center;
+}
